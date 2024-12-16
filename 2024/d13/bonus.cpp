@@ -77,35 +77,3 @@ int main()
 		count += resolve(machines[i]);
 	cout << "result: "<< count << std::endl;
 }
-
-/*
-	long	count = __LONG_MAX__;
-
-	cout << "resolve" << std::endl;
-	for (long a = 0; (a * machine.a.x <= machine.prize.x) && (a * machine.a.y <= machine.prize.y); a++)
-	{
-		if (a % 100 == 0)
-			cout << "a: " << a << std::endl;
-		// 	cout << "waou" << std::endl;
-		for (long b = 0; (a * machine.a.x + b * machine.b.x <= machine.prize.x) && (a * machine.a.y + b * machine.b.y <= machine.prize.y); b++)
-		{
-			if (b % 100000000 == 0)
-				cout << "b: " << b << std::endl;
-			if ((a * machine.a.x + b * machine.b.x) == machine.prize.x && (a * machine.a.y + b * machine.b.y) == machine.prize.y)
-			{
-				cout << "." << std::endl;
-				cout << count << std::endl;
-				cout << a * 3 + b * 1 << std::endl;
-				if ((a * 3 + b * 1) < count)
-				{
-					cout << "fuck" << std::endl;
-					count = a * 3 + b * 1;
-					std::cout << count << std::endl;
-
-				}
-			}
-		}
-	}
-	std::cout << count << std::endl;
-	return ((count != __LONG_MAX__) * count);
-*/

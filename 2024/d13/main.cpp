@@ -39,7 +39,6 @@ long	resolve(t_machine &machine)
 				// cout << a * 3 + b * 1 << std::endl;
 				if ((a * 3 + b * 1) < count)
 				{
-					// cout << "fuck" << std::endl;
 					count = a * 3 + b * 1;
 					// std::cout << count << std::endl;
 					cout << a << std::endl;
